@@ -1,0 +1,75 @@
+{% load sekizai_tags filertags %}
+  {% comment %}
+  <!-- SmartSnippets Variables
+00_Station_Call_Letters=TextField
+01_image=OptionalImageField
+01_name=TextField
+01_link=TextField
+01_link_target=Select|values=_blank,_self
+
+02_image=OptionalImageField
+02_name=TextField
+02_link=TextField
+02_link_target=Select|values=_blank,_self
+
+03_image=OptionalImageField
+03_name=TextField
+03_link=TextField
+03_link_target=Select|values=_blank,_self
+
+04_image=OptionalImageField
+04_name=TextField
+04_link=TextField
+04_link_target=Select|values=_blank,_self
+
+05_image=OptionalImageField
+05_name=TextField
+05_link=TextField
+05_link_target=Select|values=_blank,_self
+-->
+  {% endcomment %}
+
+<style type="text/css">
+.containerKids {
+	width: 1000px;
+}
+</style>
+
+<div class="containerKids">
+
+    <div class="row-fluid">
+        
+        <!-- Page Content -->
+        
+        <!-- START PBS KIDS  PLAYER MODULE --><div style="width:1000px; height:620px; margin:0px auto;"><script type="text/javascript" src="http://www-tc.pbskids.org/video/js/preschoolplayer-stations.js"></script><script type="text/javascript">buildPlayer('{{00_Station_Call_Letters}}');</script></div><!-- END PBS KIDS  PLAYER MODULE -->
+        
+        
+<!-- Image Links -->
+<div style="text-align: center; background-color: #90d500; padding-top: 10px; padding-bottom: 10px;">
+{% if 01_image %}
+<a href="{{01_link}}" target="{{01_link_target}}"><img src="{{01_image}}" alt="{{01_name}}" border="0" /></a>
+{% endif %}
+
+{% if 02_image %}
+<a href="{{02_link}}" target="{{02_link_target}}"><img src="{{02_image}}" alt="{{02_name}}" border="0" /></a>
+{% endif %}
+
+{% if 03_image %}
+<a href="{{03_link}}" target="{{03_link_target}}"><img src="{{03_image}}" alt="{{03_name}}" border="0" /></a>
+{% endif %}
+
+{% if 04_image %}
+<a href="{{04_link}}" target="{{04_link_target}}"><img src="{{04_image}}" alt="{{04_name}}" border="0" /></a>
+{% endif %}
+
+{% if 05_image %}
+<a href="{{05_link}}" target="{{05_link_target}}"><img src="{{05_image}}" alt="{{05_name}}" border="0" /></a>
+{% endif %}
+
+
+
+</div><!-- /Image Links -->
+
+
+     </div><!-- /Page Content -->
+</div> <!-- /container -->
