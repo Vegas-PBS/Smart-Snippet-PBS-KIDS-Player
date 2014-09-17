@@ -14,6 +14,6 @@ Below are the images and links I used.
 
 >[PBS Parents Image] (http://pbs.bento.storage.s3.amazonaws.com/hostedbento-prod/filer_public/kids%20and%20families/tv-schedules/kids-parents.jpg) | [Link] (http://www.pbs.org/parents/)
 
->[PBS LearningMedia Image] (http://pbs.bento.storage.s3.amazonaws.com/hostedbento-prod/filer_public/kids%20and%20families/tv-schedules/kids-pbs-learning.jpg) | [Link] (pbslearningmedia.org)
+>[PBS LearningMedia Image] (http://pbs.bento.storage.s3.amazonaws.com/hostedbento-prod/filer_public/kids%20and%20families/tv-schedules/kids-pbs-learning.jpg) | [Link] (http://www.pbslearningmedia.org/)
 
->[PBS LAB Image] (http://pbs.bento.storage.s3.amazonaws.com/hostedbento-prod/filer_public/kids%20and%2) | [Link] (http://pbskids.org/lab)
+>[PBS LAB Image] (http://pbs.bento.storage.s3.amazonaws.com/hostedbento-prod/filer_public/kids%20and%20families/tv-schedules/kids-lab.jpg) | [Link] (http://pbskids.org/lab)
